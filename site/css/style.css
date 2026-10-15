@@ -1,0 +1,438 @@
+@font-face {
+    font-family: 'vazir';
+    src: url('../fonts/Vazir.eot');
+    src: url('../fonts/Vazir.eot'),
+        url('../fonts/Vazir.ttf'),
+        url('../fonts/Vazir.woff'),
+        url('../fonts/Vazir.woff2');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    direction: rtl;
+    font-family: 'vazir';
+}
+
+.top {
+    background-color: rgb(85, 197, 207);
+    width: 100%;
+    height: 80px;
+}
+
+.logo {
+    width: 33.33%;
+    float: right;
+}
+
+.logo img {
+    width: 70px;
+    height: 70px;
+    padding: 5px 10px;
+}
+
+.logo span {
+    position: relative;
+    bottom: 36px;
+    right: 10px;
+    font-size: 18px;
+}
+
+.date {
+    width: 33.33%;
+    float: right;
+    text-align: center;
+    padding-top: 28px;
+    font-weight: bold;
+}
+
+.search {
+    width: 33.33%;
+    float: left;
+    text-align: center;
+    padding-top: 25px;
+}
+
+.search input {
+    width: 50%;
+    padding: 5px 10px;
+    border: 2px solid #102755;
+    border-radius: 0 20px 20px 0;
+}
+
+.search button {
+    padding: 5px 15px;
+    position: relative;
+    left: 5px;
+    background-color: #102755;
+    color: azure;
+    border: 2px solid #102755;
+    border-radius: 20px 0 0 20px;
+}
+
+.search button:hover {
+    background-color: #2c477b;
+    color: black;
+}
+
+.menu {
+
+    background-color: rgb(16, 39, 85);
+    width: 100%;
+    height: 40px;
+    width: 100%;
+    height: 40px;
+}
+
+.menu ul {
+    list-style: none;
+    position: absolute;
+}
+
+.menu li {
+    display: inline-block;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    padding: 7px 16px;
+    display: inline-block;
+}
+
+.menu a:hover {
+    background-color: #253b67;
+    border-bottom: 3px solid rgb(243, 109, 151);
+}
+
+.dropdown-menu {
+    position: absolute;
+    background-color: rgb(16, 39, 85);
+    min-width: 122px;
+    text-align: center;
+    display: none;
+}
+
+.dropdown-menu a {
+    display: block;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.slider {
+    background-color: rgb(72, 220, 121);
+    width: 100%;
+    height: 450px;
+    width: 100%;
+    height: 450px;
+}
+
+.slider img {
+    width: 100%;
+    height: 450px;
+}
+
+.slider img:hover {
+    opacity: 0.8;
+}
+
+.content {
+    background-color: beige;
+    width: 100%;
+    height: 1600px;
+    width: 100%;
+    height: 1730px;
+}
+
+.banner {
+    background-color: rgb(85, 197, 207);
+    width: 98%;
+    margin: 10px auto;
+    text-align: center;
+    padding: 10px 0;
+    border-radius: 20px;
+    font-weight: bold;
+    clear: both;
+}
+
+.box {
+    width: 23%;
+    height: auto;
+    background-color: aliceblue;
+    border-radius: 20px;
+    text-align: center;
+    margin: 1%;
+    float: right;
+}
+
+.box img {
+    width: 90%;
+    height: 320px;
+    margin: 15px 0;
+}
+
+.box img :hover {
+    opacity: 0.9;
+}
+
+.box button {
+    background-color: #2c477b;
+    border: none;
+    padding: 8px 16px;
+    color: white;
+    border-radius: 20px;
+    margin: 15px 0;
+}
+
+.box button:hover {
+    background-color: #4f6b9a;
+}
+
+
+
+.footer {
+    background-color: rgb(85, 197, 207);
+    width: 100%;
+    height: 250px;
+}
+
+.Media {
+    width: 33%;
+    text-align: center;
+    float: right;
+    border-left: 1px solid black;
+    height: 250px;
+}
+
+.Media img {
+    width: 100px;
+    transition: all 2s ease-in;
+    margin-top: 70px;
+}
+
+.Media img:hover {
+    opacity: 0.8;
+    transform: scale(0.5) rotate(360deg);
+}
+
+.Media a {
+    text-decoration: none;
+}
+
+.links {
+    width: 33%;
+    float: right;
+    text-align: center;
+    border-left: 1px solid black;
+    height: 250px;
+
+}
+
+.links ul {
+    /* position: absolute;
+    margin-right: 190px;
+    padding-top: 90px; */
+    list-style-type: none;
+    padding-top: 90px;
+}
+
+.links a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.links a:hover {
+    color: aliceblue;
+}
+
+.Sign {
+    width: 33%;
+    float: left;
+    text-align: center;
+}
+
+.Sign p {
+    padding-top: 80px;
+    padding-bottom: 10px;
+}
+
+.Sign input {
+
+    width: 50%;
+    padding: 5px 10px;
+    border: 2px solid #102755;
+    border-radius: 0 20px 20px 0;
+}
+
+.Sign button {
+    padding: 5px 15px;
+    position: relative;
+    left: 5px;
+    background-color: #102755;
+    color: white;
+    border-radius: 20px 0 0 20px;
+}
+
+.contentpage {
+    background-color: rgb(107, 219, 213);
+    width: 100%;
+    height: 650px;
+}
+
+.bannerpage {
+    background-color: #4f6b9a;
+    width: 70%;
+    margin: 10px auto;
+    text-align: center;
+    padding: 10px 0;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+.boxpage {
+    width: 70%;
+    height: auto;
+    background-color: aliceblue;
+    border-radius: 20px;
+    text-align: center;
+    margin: auto;
+}
+
+.boxpage img {
+    width: 30%;
+    height: 300px;
+    margin: 15px 0;
+
+}
+
+.boxpage p {
+    text-align: justify;
+    padding: 20px;
+
+}
+
+
+.boxpage2 {
+    width: 33%;
+    text-align: center;
+    float: right;
+    margin-right: 500px;
+    height: 250px;  
+}
+
+.boxpage2 img {
+    width: 100px;
+    margin-top: 70px;
+    padding-bottom: 10px;
+    transition:all 2s ease-in;
+}
+
+.boxpage2 img:hover {
+    transform: scale(0.5) rotate(360deg);
+}
+
+.contentcontact {
+    background-color: rgb(107, 219, 213);
+    width: 100%;
+    height: 870px;
+}
+
+.contentcalender {
+    background-color: rgb(107, 219, 213);
+    width: 100%;
+    height: 410px
+}
+
+#calender {
+    width: 90%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+#calender th,
+#calender td {
+    border: 1px solid black;
+    padding: 6px;
+}
+
+#calender th {
+    background-color: #253b67;
+
+}
+
+#calender tr:nth-child(even) {
+    background-color: #4f6b9a;
+
+}
+
+#calender tr:hover {
+
+    background-color: #253b67;
+}
+
+.boxpage input,
+.boxpage textarea {
+    width: 20%;
+    padding: 5px 10px;
+    border-radius: 20px;
+    border: 2px solid #4f6b9a;
+}
+
+.boxpage input:focus,
+.boxpage textarea:focus {
+    border: 2px solid #fefefe;
+    outline: none;
+}
+
+.boxpage select {
+    width: 22.5%;
+    padding: 5px 10px;
+    border-radius: 20px;
+    border: 2px solid #4f6b9a;
+}
+
+select {
+    text-align: right !important;
+}
+
+.select {
+    display: none;
+}
+
+.boxpage select {
+    width: 22.5%;
+    padding: 5px 10px;
+    border-radius: 20px;
+    border: 2px solid #4f6b9a;
+}
+
+.contentform {
+    background-color: rgb(46, 61, 82);
+    width: 100%;
+    height: 790px;
+}
+
+.boxpage button {
+    padding: 5px 15px;
+    position: relative;
+    left: 5px;
+    background-color: #102755;
+    color: azure;
+
+}
+
+.boxpage button:hover {
+    background-color: #2c477b;
+    color: black;
+}
+
+
+.contentlogin {
+    background-color: rgb(46, 61, 82);
+    width: 100%;
+    height: 1600px;
+    width: 100%;
+    height: 400px;
+}
